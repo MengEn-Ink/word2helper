@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.msw</groupId>
-  <artifactId>export-database-structure</artifactId>
+  <artifactId>word2helper</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 

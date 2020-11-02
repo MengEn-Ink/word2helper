@@ -1,4 +1,4 @@
-package com.pactera.mysql2wordhelper.execute;
+package com.pactera.mysql2wordhelper.template;
 
 /**
  * @description: 数据库语句模板

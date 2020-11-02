@@ -36,6 +36,12 @@
       <artifactId>poi-tl</artifactId>
       <version>1.8.2</version>
     </dependency>
+      <dependency>
+          <groupId>org.jetbrains</groupId>
+          <artifactId>annotations</artifactId>
+          <version>RELEASE</version>
+          <scope>compile</scope>
+      </dependency>
   </dependencies>
   <build>
     <!-- 配置资源文件 -->
@@ -75,7 +81,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>com.msw.java.Main</mainClass>
+              <mainClass>com.pactera.mysql2wordhelper.Application</mainClass>
             </manifest>
           </archive>
           <descriptorRefs>

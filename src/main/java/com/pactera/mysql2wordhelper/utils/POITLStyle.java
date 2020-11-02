@@ -1,4 +1,4 @@
-package com.pactera.mysql2wordhelper;
+package com.pactera.mysql2wordhelper.utils;
 
 import com.deepoove.poi.data.style.Style;
 import com.deepoove.poi.data.style.TableStyle;
@@ -8,14 +8,14 @@ public class POITLStyle {
 	public static Style getHeaderStyle(){
 		Style style = new Style();
 		style.setBold(true);
-		style.setFontSize(14);
+		style.setFontSize(12);
 		style.setColor("000000");
 		style.setFontFamily("宋体");
 		return style;
 	}
 	
 	public static TableStyle getHeaderTableStyle(){
-		TableStyle style = new TableStyle();;
+		TableStyle style = new TableStyle();
 		style.setBackgroundColor("B7B7B7");
 		return style;
 	}
@@ -30,7 +30,7 @@ public class POITLStyle {
 	}
 	
 	public static TableStyle getBodyTableStyle(){
-		TableStyle style = new TableStyle();;
+		TableStyle style = new TableStyle();
 		style.setBackgroundColor("DEDEDE");
 		return style;
 	}

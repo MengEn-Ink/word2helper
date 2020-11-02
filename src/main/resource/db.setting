@@ -1,0 +1,21 @@
+# -------------------------------------------------------------
+# ----- Setting File with UTF8-----
+# ----- 数据库配置文件 -----
+# -------------------------------------------------------------
+
+#JDBC url，必须
+url = jdbc:mysql://192.168.9.19:3306/hnlh-manager
+#用户名
+user = root
+#密码，必须，如果密码为空，请填写 pass =
+pass = Pactera@SLN_dig-1
+
+## 可选配置
+# 是否在日志中显示执行的SQL
+showSql = true
+# 是否格式化显示的SQL
+formatSql = false
+# 是否显示SQL参数
+showParams = true
+# 打印SQL的日志等级，默认debug，可以是info、warn、error
+sqlLevel = debug
